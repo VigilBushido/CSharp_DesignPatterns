@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace CSharp_DesignPatterns.Basic_Concepts
 {
-    class A
+    class Employee
     {
-    }
-
-    class B : A
-    {
-
+        int empId;
+        string empName;
+        double salary;
+        int grade;
+        string company;
     }
 }
