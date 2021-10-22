@@ -6,8 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Basic Concepts\**" />
     <Compile Remove="Singleton\**" />
+    <EmbeddedResource Remove="Basic Concepts\**" />
     <EmbeddedResource Remove="Singleton\**" />
+    <None Remove="Basic Concepts\**" />
     <None Remove="Singleton\**" />
   </ItemGroup>
 
